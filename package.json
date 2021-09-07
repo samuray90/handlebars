@@ -11,8 +11,7 @@
     "clean": "rimraf build generated",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mitch Heddles <mitchell.heddles@gmail.com>",
-  "license": "MIT",
+  
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -27,7 +26,6 @@
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
     "cssnano": "^4.1.10",
-    "eslint": "^6.8.0",
     "file-loader": "^5.0.2",
     "handlebars": "^4.7.3",
     "handlebars-layouts": "^3.1.4",

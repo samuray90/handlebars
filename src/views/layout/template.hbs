@@ -9,6 +9,9 @@
 
 <body class="{{bodyclass}}">
   {{#block "body"}}{{/block}}
+  <% for(var i=0; i < htmlWebpackPlugin.files.js.length; i++) {%>
+    <script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[i] %>"></script>
+<% } %>
 </body>
 
 {{#block "scripts"}}{{/block}}
